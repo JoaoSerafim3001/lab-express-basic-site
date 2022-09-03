@@ -13,10 +13,8 @@ app.get("/about", (_, res) => {
   res.sendFile(__dirname + "/views/about.html");
 });
 
-app.get("/works", (_, res) => {
+app.get("/artwork", (_, res) => {
   res.sendFile(__dirname + "/views/artwork.html");
 });
 
-app.listen(3000, () => {
-  console.log("My first app listening on port 3000! ");
-});
+app.listen(3000, () => {});
